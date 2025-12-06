@@ -43,7 +43,6 @@ tests/
         └── ci.yml           # CI pipeline (pytest + Docker build/push)
 
 ### Docker Hub Image
+docker pull pratibhajagati/fastapi-bread-calculator:latest
+docker run -p 8000:8000 pratibhajagati/fastapi-bread-calculator:latest
 
-Docker image is available at: `pratibhajagati/fast-api-calci`
-
-![Docker Hub screenshot](screenshots/dockerhub-fast-api-calci.png)
